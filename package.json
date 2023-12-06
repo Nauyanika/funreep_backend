@@ -1,0 +1,29 @@
+{
+  "name": "KheloJeeto",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "debug": "^4.3.2",
+    "express": "^4.17.1",
+    "express-validator": "^6.14.0",
+    "force": "^0.0.3",
+    "init": "^0.1.2",
+    "moment": "^2.29.3",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.3.0",
+    "nodemailer": "^6.7.4",
+    "readline": "^1.3.0",
+    "shortid": "^2.2.16",
+    "socket.io": "^2.4.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set DEBUG=test & node server.js"
+  },
+  "author": "Jeeto Rummy",
+  "license": "ISC",
+  "description": ""
+}
